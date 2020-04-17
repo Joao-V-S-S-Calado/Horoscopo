@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/03/2020, 12:45:27
+    Author     : joao
+*/
+
+form
+{
+    background: #24313C;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;   
+    text-align: center;
+    
+}
+
+#centralizar
+{
+    /* position:absolute; margin: 0px; */
+    top:1%; 
+    left:1%;
+    width: 700px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+#button1
+{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    
+    color:white;
+    background-color: #1AB188;
+    margin: 0px;
+    width: 320px;
+    height: 50px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+#novoB
+{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    
+    color: white;
+    background-color: #1AB188;
+    margin: 0px;
+    width: 320px;
+    height: 50px;
+    border: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+#data
+{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    
+    color:white;
+    background-color: #1AB188;
+    margin: 0px;
+    width: 220px;
+    height: 50px;
+    border: 0px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+#button2
+{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    
+    color: #797F6C;
+    background-color: #435159;
+    margin: 0px;
+    width: 320px;
+    height: 50px;
+    border: 0px;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+#tx1
+{
+    font-size: 20px;
+    
+    color: #899096;
+    background-color: #24313C;
+    border-color: white;   
+    border: solid #8C9E9D 1px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    text-indent: 1em;
+    font-size: 20px;
+}
+
+#tx2
+{
+    font-size: 20px;
+    
+    color: #899096;
+    background-color: #24313C;
+    border-color: white;   
+    border: solid #8C9E9D 1px;
+    margin: 10px;
+    width: 630px;
+    height: 40px;
+    text-indent: 1em;
+}
+
+#sub
+{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+    
+    color: white;
+    background-color: #1AB188;
+    margin: 30px;
+    width: 630px;
+    height: 60px;
+    border: 0px;
+    padding: 0px;
+}
+
+.required:after
+{
+    content: " *";
+    color: red;
+}
+
+#div
+{
+    display: flex;
+}
